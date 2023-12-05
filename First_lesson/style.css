@@ -1,0 +1,14 @@
+.title{
+    background-color: #7bbd4b;
+    border: dotted;
+    border-width: 2px 2px 3px 4px;
+}
+
+.menu{
+    color: rgb(92, 174, 210);
+    border: 2px solid rgb(0, 179, 255);
+}
+
+.heading{
+    background-color: rgb(255, 0, 225);
+}
