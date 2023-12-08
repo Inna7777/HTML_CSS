@@ -1,3 +1,7 @@
+body{
+    font-family: sans-serif;
+}
+
 .title{
     background-color: #7bbd4b;
     border: dotted;
@@ -5,10 +9,62 @@
 }
 
 .menu{
-    color: rgb(92, 174, 210);
-    border: 2px solid rgb(0, 179, 255);
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+    
 }
 
 .heading{
     background-color: rgb(255, 0, 225);
 }
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.paragraph{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.image{
+    border-radius: 10px;
+}
+.subtitle{
+    font-style: italic;
+    line-height: 80px;
+    color: coral;
+    font-weight: 700;
+}
+
+.input_appl{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30;
+    font-family: sans-serif;
+}
+
+.btn_appl{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+
