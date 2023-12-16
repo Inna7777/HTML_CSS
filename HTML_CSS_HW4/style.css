@@ -71,6 +71,11 @@ body {
 
 }
 
+.center{
+    padding-right: calc(50% - 610px);
+    padding-left: calc(50% - 610px);
+}
+
 .information {
     width: 522px;
 }
@@ -94,7 +99,6 @@ body {
 }
 
 .buttonBlock {
-    margin-top: 37px;
     margin-top: 37px;
     display: flex;
     justify-content: flex-start;
