@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Afacad', 'Open Sans', sans-serif;
+}
+
+.busnesCards {
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 381px);
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    padding: 40px 31px 25px 30px;
+
+}
+
+.shadow {
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+
+
+.cardTitle {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 17px;
+    margin-top: 25px;
+}
+
+.cardText {
+    color: #666;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 25px;
+
+}
+
+.aboutUs {
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleAboutUs {
+    padding-top: 91px;
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 19px;
+}
+
+.textAboutUs {
+    width: 681px;
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cardsAboutUs {
+
+    margin-top: 31px;
+    padding-top: 24px;
+    padding-bottom: 43px;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    justify-content: center;
+    gap: 24px;
+}
+
+.cardUs {
+    background-color: #FFF;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgcardUs {
+    height: 289px;
+}
+
+.cardTitleUs {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 22px;
+
+}
+
+.cardTextUs {
+    color: #AAA;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 39px;
+}
+
+.buttonCard {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 50px;
+    background-color: #F25822;
+    border-radius: 30px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: calc(50% - 100px);
+
+}
+
+.p_button {
+    color: #f5f8f4;
+    padding-right: 6px;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    /* 19.5px */
+}
