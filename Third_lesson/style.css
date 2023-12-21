@@ -6,12 +6,12 @@
 
 body {
     background-color: #08101E;
-    font-family: 'Roboto',  sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .top {
     padding: 10px;
-   
+
     padding-bottom: 99px;
 }
 
@@ -24,8 +24,8 @@ body {
 }
 
 .center {
-    padding-left: calc(50% - 576px);
-    padding-right: calc(50% - 576px);
+    padding-left: calc(50% - 573px);
+    padding-right: calc(50% - 573px);
 }
 
 .topLink {
@@ -117,8 +117,8 @@ body {
 
 .content {
     display: grid;
-     grid-template-columns: repeat(3, 362px);
-     /* grid-template-rows: repeat(3, 1fr);      */
+    grid-template-columns: repeat(3, 362px);
+    /* grid-template-rows: repeat(3, 1fr);      */
     gap: 30px;
     justify-content: center;
     /* grid-template-areas: "a b c"
@@ -126,18 +126,18 @@ body {
                            "d d f"; */
     padding-top: 264px;
     padding-bottom: 243px;
-    
+
 }
 
 .item {
     border-radius: 10px;
     background: #132035;
     padding: 30px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 /* .content:nth-child(1) {
@@ -174,7 +174,7 @@ body {
     font-weight: 700;
     line-height: 125%;
     font-family: Open Sans;
-    
+
 }
 
 .itemText {
@@ -184,14 +184,58 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 26px;
-    
+
 }
 
-.itemBig{
+.itemBig {
 
     grid-column: span 2;
     grid-row: span 2;
-    gap:60px;
+    gap: 60px;
 }
 
 
+@media (max-width:1024px) {
+    .center {
+        padding-left: calc(50% - 376px);
+        padding-right: calc(50% - 376px);
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 48px;
+    }
+
+    .topLogo {
+        max-width: 650px;
+        margin: auto;
+        gap: 32px;
+        }
+     .top{
+        padding-bottom: 120px;
+     }
+
+     .content {
+        display: grid;
+        grid-template-columns: repeat(1, 362px);
+        gap: 32px;
+        justify-content: center;
+        padding-top: 264px;
+        padding-bottom: 243px;
+    
+    }
+    .itemBig {
+        grid-column: span 1;
+        grid-row: span 1;
+        gap: 32px;
+        
+    }
+    .itemBig  img{
+        width: 98px;
+        
+    }
+    
+}
