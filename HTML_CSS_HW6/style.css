@@ -254,28 +254,39 @@ body {
     }
 
     .product .product2 {
-       width: 360px;
+        width: 360px;
     }
 
     .nextName {
         font-size: 13px;
     }
-    
+
     .textDescription {
-        font-size: 14px;        
+        font-size: 14px;
     }
-    
+
     .price {
         font-size: 16px;
-         
+
     }
+
     .buttonBloc {
         margin-top: 32px;
         margin-bottom: 70px;
-     }
-    
+    }
+
     .button {
         font-size: 16px;
-      
+
+    }
+
+    .textOverlay {
+        top: 40%;
+        left: 25%;
+    }
+
+    .bigCard {
+        top: 40%;
+        left: 40%;
     }
 }
