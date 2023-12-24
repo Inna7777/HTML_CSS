@@ -3,9 +3,10 @@
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Lato', sans-serif;
 }
+
 .headerLine {
     background-color: #222222;
     padding-bottom: 20px;
@@ -127,8 +128,8 @@ body{
     align-items: center;
 }
 
-.textTitleContent  {
-    color: #222;    
+.textTitleContent {
+    color: #222;
     font-size: 30px;
     font-weight: 400;
     line-height: normal;
@@ -159,7 +160,6 @@ body{
 
 .nextName {
     color: #000;
-    
     font-weight: 400;
 }
 
@@ -171,9 +171,9 @@ body{
 
 .price {
     color: #F16D7F;
-    font-size: 18px;    
+    font-size: 18px;
     font-weight: 400;
-    
+
 }
 
 .product .product2 {
@@ -185,19 +185,97 @@ body{
 
 }
 
-.buttonBloc{
+.buttonBloc {
     margin-top: 48px;
     margin-bottom: 80px;
     display: flex;
     justify-content: center;
 }
 
-.button{
-width: 212px;
-height: 48px;
-border: #F16D7F solid 1px;
-background-color: white;
-color: #F26376;
-font-size: 18px;
-font-weight: 400;
+.button {
+    width: 212px;
+    height: 48px;
+    border: #F16D7F solid 1px;
+    background-color: white;
+    color: #F26376;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media(max-width:1024px) {
+    .imgLeft {
+        padding-right: 441px;
+    }
+
+    .center {
+        padding-right: calc(50% - 386px);
+        padding-left: calc(50% - 386px);
+    }
+
+    .headerImg img {
+        width: 386px;
+        height: auto;
+    }
+
+    .titleHeader {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        padding-top: 138px;
+        padding-left: 39px;
+        height: 92px;
+    }
+
+    .titleHeader img {
+        width: 12px;
+    }
+
+    .textHeader {
+        color: #222;
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 40px;
+        padding-top: 1%;
+    }
+
+    .textHeader strong {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .menu {
+        grid-template-columns: repeat(3, 231px);
+        gap: 19px;
+    }
+
+    .content {
+        grid-template-columns: repeat(2, 360px);
+        gap: 16px;
+    }
+
+    .product .product2 {
+       width: 360px;
+    }
+
+    .nextName {
+        font-size: 13px;
+    }
+    
+    .textDescription {
+        font-size: 14px;        
+    }
+    
+    .price {
+        font-size: 16px;
+         
+    }
+    .buttonBloc {
+        margin-top: 32px;
+        margin-bottom: 70px;
+     }
+    
+    .button {
+        font-size: 16px;
+      
+    }
 }

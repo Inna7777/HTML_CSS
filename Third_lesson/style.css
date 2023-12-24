@@ -11,7 +11,6 @@ body {
 
 .top {
     padding: 10px;
-
     padding-bottom: 99px;
 }
 
@@ -30,7 +29,6 @@ body {
 
 .topLink {
     color: var(--ffffff, #FFF);
-
     text-decoration: none;
     font-size: 16px;
     font-style: normal;
@@ -195,6 +193,31 @@ body {
 }
 
 
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.infoTitle {
+    padding-bottom: 30px;
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 52px */
+}
+.infoclient {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width:1024px) {
     .center {
         padding-left: calc(50% - 376px);
@@ -213,29 +236,118 @@ body {
         max-width: 650px;
         margin: auto;
         gap: 32px;
-        }
-     .top{
-        padding-bottom: 120px;
-     }
+    }
 
-     .content {
+    .top {
+        padding-bottom: 120px;
+    }
+
+    .content {
         display: grid;
         grid-template-columns: repeat(1, 362px);
         gap: 32px;
         justify-content: center;
         padding-top: 264px;
         padding-bottom: 243px;
-    
+
     }
+
     .itemBig {
         grid-column: span 1;
         grid-row: span 1;
         gap: 32px;
-        
+
     }
-    .itemBig  img{
+
+    .itemBig img {
         width: 98px;
-        
+
     }
+
+}
+
+@media (max-width:767px) {
+    .top {
+        padding: 0;
+        margin: 0;
+    }
+
+    .header {
+        padding-top: 39px;
+        gap: 16px;
+    }
+
+    .topLink {
+        font-size: 14px;
+    }
+
+    .topBlock {
+        margin-top: 80px;
+    }
+
+    .topinformation {
+        width: 343px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .title {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .text {
+        width: 343px;
+        text-align: center;
+        opacity: 0.7;
+    }
+
+    .topbutton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+
+    }
+
+   
     
+    .infoImage{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .image {
+        width: 343px;
+        height: auto;
+     }
+
+    .logoleft {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+    }
+
+    .itemImgBig {
+        overflow: auto;
+    }
+
+     .infoTitle {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .text{
+       text-align: center;
+    }
+
+    .information {
+        margin-bottom: 64px;
+       align-items: center;
+       
+    }
 }

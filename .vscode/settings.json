@@ -1,3 +1,4 @@
 {
-    "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "livePreview.defaultPreviewPath": "/Third_lesson/index.html"
 }
