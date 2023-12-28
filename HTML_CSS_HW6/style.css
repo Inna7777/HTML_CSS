@@ -23,6 +23,9 @@ body {
     gap: 41px;
 }
 
+.oneForm{
+    display: none;
+}
 .headerImg {
     background-color: #F1E4E6;
     display: flex;
@@ -288,5 +291,76 @@ body {
     .bigCard {
         top: 40%;
         left: 40%;
+    }
+}
+
+@media(max-width:767px) {
+
+    .imgLeft {
+        padding-right: 0px;
+    }
+
+    .oneForm{
+        display: block;
+        padding-left: 200px;
+    }
+
+    .imgHeader {
+        display: none;
+    }
+
+    .imgRight {
+
+        display: none;
+    }
+
+    .titleHeader {
+        padding-top: 146px;
+        padding-bottom: 148px;
+        
+ }
+
+    .textHeader {
+        line-height: 25px;
+        font-size: 38px;
+        padding-top: 2%;
+
+    }
+
+    .textHeader strong {
+        font-size: 20px;
+        height: 66px;
+    }
+
+    .titleHeader img {
+        height: 61px;
+              
+    }
+
+    .center {
+        padding-right: calc(50% - 176px);
+        padding-left: calc(50% - 176px);
+    }
+    
+    .menu{
+        grid-template-columns:343px;
+    }
+    .bigItem {
+        grid-column: span 1;
+        height: 111px;
+    }
+     
+
+    .content{
+        grid-template-columns:358px ;
+    }
+
+    .textOverlay {
+        left: 30%;
+    }
+
+    .bigCard {
+        top: 30%;
+        left: 30%;
     }
 }
