@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(220, 223, 223);
+}
+
+.text-color {
+    color: rgb(44, 5, 83);
+}
+
+.bg-body-tertiary {
+    background-color: rgb(211, 163, 119) !important;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.carousel-inner {
+    width: 200px;
+    margin: auto;
+}
+
+.carousel-control-next-icon {
+    background-image: url(./arrow-right-solid.svg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(./arrow-left-solid.svg);
+}
